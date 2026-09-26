@@ -4,7 +4,7 @@ public:
         if(n<=1){
             return n;
         }
-        int last = fib(n-1);
+        int last = fib(n-1); // multiple recursion call
         int slast = fib(n-2);
         return last + slast;
 
